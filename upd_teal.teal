@@ -1,0 +1,37 @@
+#pragma version 5
+txn TypeEnum
+int pay
+==
+txn Sender
+addr !!ADDRESS!!
+==
+&&
+txn Receiver
+addr !!!RECEIVER1!!!
+==
+txn Receiver
+addr !!!RECEIVER2!!!
+==
+||
+&&
+txn Amount
+int !!!AMOUNT!!! 
+<=
+&&
+txn CloseRemainderTo
+global ZeroAddress
+==
+&&
+txn RekeyTo
+global ZeroAddress
+==
+&&
+txn Fee
+int 10000
+<=
+&&
+
+// We may wish to enter an expiration round for the Logic Signature to no longer be valid in.
+// We may also decide whether to allow group transactions or not, 
+// in which case we should validate that global GroupSize == 1 .
+
