@@ -1,0 +1,522 @@
+C:\Users\Cefriel-Emfi\Desktop\EmFi_coupons-Pilot2\CORE>python core2.py
+
+
+EmFi core starting ...
+
+MASTER Account address CJRJE3UTTZ6JLZVFY4E33AQMOUJT44RTCMUYP7EU3S6ENJ2QS27QR6SXWA
+MASTER Account private key ohEWBZ11hzC7BZL2oCqBv13CE3KooezkvnN6d03YEeMSYpJuk558lealxwm9ggx1Ez5yMxMph/yU3LxGp1CWvw==
+MASTER Account balance:  microAlgos  2539511000
+
+Check that the master has sufficient tokens!
+
+
+
+>>> algo client set up      --------------------------------
+
+
+ Generated 6 student accounts
+
+
+Student account information written to file ./stud_data/stud_acc_pk_mn.csv
+
+\Bookshop account information written to file ./stud_data/book_acc_pk_mn.csv
+
+>>> end creation of accounts
+
+
+
+>>> smart contracts set up      --------------------------------
+
+ Contracts created and saved in ./stud_contracts
+>>> end creation of smart contracts
+
+
+
+>>> Send minimum from master to students      --------------------------------
+
+ >>> END min balance transfers for students
+
+
+
+>>> Send money from master to bookshops     --------------------------------
+Successfully sent transaction with txID: L7DUWER34WOX7CHVJCZCEYO5V5H4YSGT2GIQQYES7FRDAWA3XBUQ
+Transaction successfully accepted
+Final MASTER account balance: 2539400000 microAlgos
+Final BOOKSHOP account for bookshop: NGCCQMM57YFNW3EKX7VYMPR52XYNWZXBBS2YJRVOHMNOZHPQ56LGSSWWEI
+Account balance: 110000 microAlgos
+
+>>> END Send money from master to bookshop NGCCQMM57YFNW3EKX7VYMPR52XYNWZXBBS2YJRVOHMNOZHPQ56LGSSWWEI      --------------------------------
+Successfully sent transaction with txID: OOPNYTKM7NMF3FJFHIDGZ5S6XPAFGAEPR4MIZR2ETFKBNMFNFGLQ
+Transaction successfully accepted
+Final MASTER account balance: 2539289000 microAlgos
+Final BOOKSHOP account for bookshop: FBCS6VEY5S5LQEA4RN3CMPJPZ74M2WTPKAMOYY6BVTCO5W2GA5JHXF3ICU
+Account balance: 110000 microAlgos
+
+>>> END Send money from master to bookshop FBCS6VEY5S5LQEA4RN3CMPJPZ74M2WTPKAMOYY6BVTCO5W2GA5JHXF3ICU      --------------------------------
+
+ >>> END min balance transfers for bookshops
+
+
+        >>>>> Sending funding to students
+['P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A', 'BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU', '2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ', 'F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A', 'RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4', 'LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA']
+['38880000', '38880000', '38880000', '38880000', '38880000', '38880000']
+{'P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A': '38880000', 'BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU': '38880000', '2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ': '38880000', 'F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A': '38880000', 'RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4': '38880000', 'LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA': '38880000'}
+38880000
+Successfully sent transaction with txID: Y7MYXDAJLHDHMCT6Q7TJP2OWRXEXGSRCMNRGZ4KEQIVWZB4QOOYA
+Transaction successfully accepted
+Final MASTER account balance: 2500298000 microAlgos
+Final STUDENT account balance: 38990000 microAlgos
+38880000
+Successfully sent transaction with txID: FXLYRGWWK5SZYWZDX7HHWMXNETSEKQUVXPNIBQKMRDZMRUDYSO5A
+Transaction successfully accepted
+Final MASTER account balance: 2461307000 microAlgos
+Final STUDENT account balance: 38990000 microAlgos
+38880000
+Successfully sent transaction with txID: 22YZY5DZCWU5RHGXRUU7SGGIGJD42NZOEUMGINY7AZDYOULQD6ZQ
+Transaction successfully accepted
+Final MASTER account balance: 2422316000 microAlgos
+Final STUDENT account balance: 38990000 microAlgos
+38880000
+Successfully sent transaction with txID: BZGGI2GXMOHG6VBDFBTWNRYN3B4YBFBCC4RTDW2UGTOO2YXGUM5Q
+Transaction successfully accepted
+Final MASTER account balance: 2383325000 microAlgos
+Final STUDENT account balance: 38990000 microAlgos
+38880000
+Successfully sent transaction with txID: U7H2GYPNW5IA3NOTQ7T2XFP66UVR2V6FJTRYU7HNIHVEJDNX2X2Q
+Transaction successfully accepted
+Final MASTER account balance: 2344334000 microAlgos
+Final STUDENT account balance: 38990000 microAlgos
+38880000
+Successfully sent transaction with txID: 6GLHW4ZGBZV647NP4CGGTYRMBLIAGO4PEVEK3RRIMFLY6NSEG43A
+Transaction successfully accepted
+Final MASTER account balance: 2305343000 microAlgos
+Final STUDENT account balance: 38990000 microAlgos
+
+
+ Funding transfers to students completed successfully
+
+
+ Begin generating Logic Signatures and QR codes for students
+Compiled result =  BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Compiled hash =  Q2LZOYLVGCAO7YLNCACU5AGZPDMN4QNUIQRITCFR2BJLGQTNU3VQM3CPKU
+Complied program string : BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Encoded complied program string in bytes :
+b'BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='
+Decoded in base64 encoded compiled program string :
+b'\x051\x10\x81\x01\x121\x00\x80 \x7f#NI\xb0\x8f\xd8Q"a5Z\xf3\xc2\x04^3\rj+!N\xa311\xf8\xf0,\x8c\xbaS2\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'
+Generated lsig by the LogicSic(decoded program) :
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE257400>
+Creating QR for student P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A ...
+
+
+  >> Dictified Lsig
+OrderedDict([('lsig', OrderedDict([('l', b'\x051\x10\x81\x01\x121\x00\x80 \x7f#NI\xb0\x8f\xd8Q"a5Z\xf3\xc2\x04^3\rj+!N\xa311\xf8\xf0,\x8c\xbaS2\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'), ('sig', b'\xca\x82\xd5Kq\xaf:\xec[\xfb\xad#/\xfdMEcG\xbe\xd8\x16\xd4\xa9\xaf0=\xb6\xcc\xe4VN\xc0\x15\xf0\x07_&m\x91\xe8G#\xb6!u?ML\x19\x1bL\x89\xcd\xba\xe9\x97\xa9\xf4\x84\xc4\x83\x86\t\x0e')])), ('sigkey', b'\x7f#NI\xb0\x8f\xd8Q"a5Z\xf3\xc2\x04^3\rj+!N\xa311\xf8\xf0,\x8c\xbaS2')])
+
+
+ >>> Decoded bytes Dict: OrderedDict([('lsig', OrderedDict([('l', 'BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='), ('sig', 'yoLVS3GvOuxb-60jL_1NRWNHvtgW1KmvMD22zORWTsAV8AdfJm2R6EcjtiF1P01MGRtMic266Zep9ITEg4YJDg==')])), ('sigkey', 'fyNOSbCP2FEiYTVa88IEXjMNaishTqMxMfjwLIy6UzI=')])
+
+
+ >>>> DictStr: {"lsig": {"l": "BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "yoLVS3GvOuxb-60jL_1NRWNHvtgW1KmvMD22zORWTsAV8AdfJm2R6EcjtiF1P01MGRtMic266Zep9ITEg4YJDg=="}, "sigkey": "fyNOSbCP2FEiYTVa88IEXjMNaishTqMxMfjwLIy6UzI="}
+
+
+ >>>> DictBytes: b'{"lsig": {"l": "BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "yoLVS3GvOuxb-60jL_1NRWNHvtgW1KmvMD22zORWTsAV8AdfJm2R6EcjtiF1P01MGRtMic266Zep9ITEg4YJDg=="}, "sigkey": "fyNOSbCP2FEiYTVa88IEXjMNaishTqMxMfjwLIy6UzI="}'
+
+
+ >>>> B64 Encoded DictStr: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlIOGpUa213ajloUkltRTFXdlBDQkY0ekRXb3JJVTZqTVRINDhDeU11bE15RWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ5b0xWUzNHdk91eGItNjBqTF8xTlJXTkh2dGdXMUttdk1EMjJ6T1JXVHNBVjhBZGZKbTJSNkVjanRpRjFQMDFNR1J0TWljMjY2WmVwOUlURWc0WUpEZz09In0sICJzaWdrZXkiOiAiZnlOT1NiQ1AyRkVpWVRWYTg4SUVYak1OYWlzaFRxTXhNZmp3TEl5NlV6ST0ifQ=='
+
+
+ >>>> Final DATA: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlIOGpUa213ajloUkltRTFXdlBDQkY0ekRXb3JJVTZqTVRINDhDeU11bE15RWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ5b0xWUzNHdk91eGItNjBqTF8xTlJXTkh2dGdXMUttdk1EMjJ6T1JXVHNBVjhBZGZKbTJSNkVjanRpRjFQMDFNR1J0TWljMjY2WmVwOUlURWc0WUpEZz09In0sICJzaWdrZXkiOiAiZnlOT1NiQ1AyRkVpWVRWYTg4SUVYak1OYWlzaFRxTXhNZmp3TEl5NlV6ST0ifQ==
+
+
+ >>> Data encoded into QR: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlIOGpUa213ajloUkltRTFXdlBDQkY0ekRXb3JJVTZqTVRINDhDeU11bE15RWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ5b0xWUzNHdk91eGItNjBqTF8xTlJXTkh2dGdXMUttdk1EMjJ6T1JXVHNBVjhBZGZKbTJSNkVjanRpRjFQMDFNR1J0TWljMjY2WmVwOUlURWc0WUpEZz09In0sICJzaWdrZXkiOiAiZnlOT1NiQ1AyRkVpWVRWYTg4SUVYak1OYWlzaFRxTXhNZmp3TEl5NlV6ST0ifQ==,P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A,1000000,1000
+<class 'qrcode.image.pil.PilImage'>
+Compiled result =  BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Compiled hash =  66ZIG3IOMPDBGD554DTWH36PMTZ32CY5VXVUES7DA3OQFOJW2PE65ZDCL4
+Complied program string : BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Encoded complied program string in bytes :
+b'BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='
+Decoded in base64 encoded compiled program string :
+b'\x051\x10\x81\x01\x121\x00\x80 \t\x94\x19\r]\xb6\xbb\xb1\xf2\xae\x81\xae\xd0"hd\xd1PjG\xc4\xe7\x1c\xe1\xe1F2B\x95Ny\x9f\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'
+Generated lsig by the LogicSic(decoded program) :
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE2576A0>
+Creating QR for student BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU ...
+
+
+  >> Dictified Lsig
+OrderedDict([('lsig', OrderedDict([('l', b'\x051\x10\x81\x01\x121\x00\x80 \t\x94\x19\r]\xb6\xbb\xb1\xf2\xae\x81\xae\xd0"hd\xd1PjG\xc4\xe7\x1c\xe1\xe1F2B\x95Ny\x9f\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'), ('sig', b")Fw\xa7 K\x0c\xd8\x9dX\x9d;\xa1\xda\xb9\xceO\xcd\x00\x96\x1a\xa9\xd6'\xeb\x0b\x96j\xa0\xda7\xfa\x89\x9e\xdd>\xe6(1\x83\xe6\xd9\x96\xdbMK\xbeH\xfd\x93\x0fC\x08[H.\xa9\xef\x12E\xa1_b\n")])), ('sigkey', b'\t\x94\x19\r]\xb6\xbb\xb1\xf2\xae\x81\xae\xd0"hd\xd1PjG\xc4\xe7\x1c\xe1\xe1F2B\x95Ny\x9f')])
+
+
+ >>> Decoded bytes Dict: OrderedDict([('lsig', OrderedDict([('l', 'BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='), ('sig', 'KUZ3pyBLDNidWJ07odq5zk_NAJYaqdYn6wuWaqDaN_qJnt0-5igxg-bZlttNS75I_ZMPQwhbSC6p7xJFoV9iCg==')])), ('sigkey', 'CZQZDV22u7HyroGu0CJoZNFQakfE5xzh4UYyQpVOeZ8=')])
+
+
+ >>>> DictStr: {"lsig": {"l": "BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "KUZ3pyBLDNidWJ07odq5zk_NAJYaqdYn6wuWaqDaN_qJnt0-5igxg-bZlttNS75I_ZMPQwhbSC6p7xJFoV9iCg=="}, "sigkey": "CZQZDV22u7HyroGu0CJoZNFQakfE5xzh4UYyQpVOeZ8="}
+
+
+ >>>> DictBytes: b'{"lsig": {"l": "BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "KUZ3pyBLDNidWJ07odq5zk_NAJYaqdYn6wuWaqDaN_qJnt0-5igxg-bZlttNS75I_ZMPQwhbSC6p7xJFoV9iCg=="}, "sigkey": "CZQZDV22u7HyroGu0CJoZNFQakfE5xzh4UYyQpVOeZ8="}'
+
+
+ >>>> B64 Encoded DictStr: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlBbVVHUTFkdHJ1eDhxNkJydEFpYUdUUlVHcEh4T2NjNGVGR01rS1ZUbm1mRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJLVVozcHlCTEROaWRXSjA3b2RxNXprX05BSllhcWRZbjZ3dVdhcURhTl9xSm50MC01aWd4Zy1iWmx0dE5TNzVJX1pNUFF3aGJTQzZwN3hKRm9WOWlDZz09In0sICJzaWdrZXkiOiAiQ1pRWkRWMjJ1N0h5cm9HdTBDSm9aTkZRYWtmRTV4emg0VVl5UXBWT2VaOD0ifQ=='
+
+
+ >>>> Final DATA: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlBbVVHUTFkdHJ1eDhxNkJydEFpYUdUUlVHcEh4T2NjNGVGR01rS1ZUbm1mRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJLVVozcHlCTEROaWRXSjA3b2RxNXprX05BSllhcWRZbjZ3dVdhcURhTl9xSm50MC01aWd4Zy1iWmx0dE5TNzVJX1pNUFF3aGJTQzZwN3hKRm9WOWlDZz09In0sICJzaWdrZXkiOiAiQ1pRWkRWMjJ1N0h5cm9HdTBDSm9aTkZRYWtmRTV4emg0VVl5UXBWT2VaOD0ifQ==
+
+
+ >>> Data encoded into QR: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlBbVVHUTFkdHJ1eDhxNkJydEFpYUdUUlVHcEh4T2NjNGVGR01rS1ZUbm1mRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJLVVozcHlCTEROaWRXSjA3b2RxNXprX05BSllhcWRZbjZ3dVdhcURhTl9xSm50MC01aWd4Zy1iWmx0dE5TNzVJX1pNUFF3aGJTQzZwN3hKRm9WOWlDZz09In0sICJzaWdrZXkiOiAiQ1pRWkRWMjJ1N0h5cm9HdTBDSm9aTkZRYWtmRTV4emg0VVl5UXBWT2VaOD0ifQ==,BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU,1000000,1000
+<class 'qrcode.image.pil.PilImage'>
+Compiled result =  BTEQgQESMQCAINA1fqF8IpU7+xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Compiled hash =  HOIS4Q743U6FXVUOLQPOUDDFF5SI72QS6QEM4KUDZYFI2TQGS2Q2MQ6Q7I
+Complied program string : BTEQgQESMQCAINA1fqF8IpU7+xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Encoded complied program string in bytes :
+b'BTEQgQESMQCAINA1fqF8IpU7+xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='
+Decoded in base64 encoded compiled program string :
+b'\x051\x10\x81\x01\x121\x00\x80 \xd05~\xa1|"\x95;\xfb\x10\xb61\x01\xef\xca\x8cS\x83\xc8\x97\xf7\xdbV,@\xcd\xdd\x94Y\xd5V\x8e\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'
+Generated lsig by the LogicSic(decoded program) :
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5C8CA0>
+Creating QR for student 2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ ...
+
+
+  >> Dictified Lsig
+OrderedDict([('lsig', OrderedDict([('l', b'\x051\x10\x81\x01\x121\x00\x80 \xd05~\xa1|"\x95;\xfb\x10\xb61\x01\xef\xca\x8cS\x83\xc8\x97\xf7\xdbV,@\xcd\xdd\x94Y\xd5V\x8e\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'), ('sig', b's?V*k\xaa\x0f\xad\xfa\xc7}\x0b\n\xb1\x9eU\x91\x06\xbfga\x84\x04\xe7\x9b\x1c\xad\xde\xf1;\xe3\x0b\x1bp\x11\x8c\x81a\x17m\xf8G\x14\x8e\x8f\x124\x1b\x11\xfc\xd6\xdf\xc9\x91p\xec\xfc\x02\xfaU\xbbG`\x06')])), ('sigkey', b'\xd05~\xa1|"\x95;\xfb\x10\xb61\x01\xef\xca\x8cS\x83\xc8\x97\xf7\xdbV,@\xcd\xdd\x94Y\xd5V\x8e')])
+
+
+ >>> Decoded bytes Dict: OrderedDict([('lsig', OrderedDict([('l', 'BTEQgQESMQCAINA1fqF8IpU7-xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='), ('sig', 'cz9WKmuqD636x30LCrGeVZEGv2dhhATnmxyt3vE74wsbcBGMgWEXbfhHFI6PEjQbEfzW38mRcOz8AvpVu0dgBg==')])), ('sigkey', '0DV-oXwilTv7ELYxAe_KjFODyJf321YsQM3dlFnVVo4=')])
+
+
+ >>>> DictStr: {"lsig": {"l": "BTEQgQESMQCAINA1fqF8IpU7-xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "cz9WKmuqD636x30LCrGeVZEGv2dhhATnmxyt3vE74wsbcBGMgWEXbfhHFI6PEjQbEfzW38mRcOz8AvpVu0dgBg=="}, "sigkey": "0DV-oXwilTv7ELYxAe_KjFODyJf321YsQM3dlFnVVo4="}
+
+
+ >>>> DictBytes: b'{"lsig": {"l": "BTEQgQESMQCAINA1fqF8IpU7-xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "cz9WKmuqD636x30LCrGeVZEGv2dhhATnmxyt3vE74wsbcBGMgWEXbfhHFI6PEjQbEfzW38mRcOz8AvpVu0dgBg=="}, "sigkey": "0DV-oXwilTv7ELYxAe_KjFODyJf321YsQM3dlFnVVo4="}'
+
+
+ >>>> B64 Encoded DictStr: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlOQTFmcUY4SXBVNy14QzJNUUh2eW94VGc4aVg5OXRXTEVETjNaUloxVmFPRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJjejlXS211cUQ2MzZ4MzBMQ3JHZVZaRUd2MmRoaEFUbm14eXQzdkU3NHdzYmNCR01nV0VYYmZoSEZJNlBFalFiRWZ6VzM4bVJjT3o4QXZwVnUwZGdCZz09In0sICJzaWdrZXkiOiAiMERWLW9Yd2lsVHY3RUxZeEFlX0tqRk9EeUpmMzIxWXNRTTNkbEZuVlZvND0ifQ=='
+
+
+ >>>> Final DATA: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlOQTFmcUY4SXBVNy14QzJNUUh2eW94VGc4aVg5OXRXTEVETjNaUloxVmFPRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJjejlXS211cUQ2MzZ4MzBMQ3JHZVZaRUd2MmRoaEFUbm14eXQzdkU3NHdzYmNCR01nV0VYYmZoSEZJNlBFalFiRWZ6VzM4bVJjT3o4QXZwVnUwZGdCZz09In0sICJzaWdrZXkiOiAiMERWLW9Yd2lsVHY3RUxZeEFlX0tqRk9EeUpmMzIxWXNRTTNkbEZuVlZvND0ifQ==
+
+
+ >>> Data encoded into QR: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlOQTFmcUY4SXBVNy14QzJNUUh2eW94VGc4aVg5OXRXTEVETjNaUloxVmFPRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJjejlXS211cUQ2MzZ4MzBMQ3JHZVZaRUd2MmRoaEFUbm14eXQzdkU3NHdzYmNCR01nV0VYYmZoSEZJNlBFalFiRWZ6VzM4bVJjT3o4QXZwVnUwZGdCZz09In0sICJzaWdrZXkiOiAiMERWLW9Yd2lsVHY3RUxZeEFlX0tqRk9EeUpmMzIxWXNRTTNkbEZuVlZvND0ifQ==,2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ,1000000,1000
+<class 'qrcode.image.pil.PilImage'>
+Compiled result =  BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV+bu3j/EhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Compiled hash =  Q3PLFIWDH372X7G4MVXWBRTFHDTXIYOISZECIDHKR73DLZ2MUQO7URZEVA
+Complied program string : BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV+bu3j/EhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Encoded complied program string in bytes :
+b'BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV+bu3j/EhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='
+Decoded in base64 encoded compiled program string :
+b'\x051\x10\x81\x01\x121\x00\x80 /\x08\x01\xa0\x06\x16\xf8\xdd\xac.\xc0\t\xf8\xdb\x87q\xa4\x87`2\xe7\x95v \xa2p\r_\x9b\xbbx\xff\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'
+Generated lsig by the LogicSic(decoded program) :
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5C9E70>
+Creating QR for student F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A ...
+
+
+  >> Dictified Lsig
+OrderedDict([('lsig', OrderedDict([('l', b'\x051\x10\x81\x01\x121\x00\x80 /\x08\x01\xa0\x06\x16\xf8\xdd\xac.\xc0\t\xf8\xdb\x87q\xa4\x87`2\xe7\x95v \xa2p\r_\x9b\xbbx\xff\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'), ('sig', b'\xc6\xe7H\x9f6\xb2-<JL\xa5\xecuR\xbfX\x93\xcf\x91\xa5\x17\xaeX\xa9\xf5p\xc1\xd2\xf1\x16\xb8R\n\xc4\x9eT\x87\xf1\xa5>\xde\x07\xcd8\xcc\xbc\x9c[B\xc4=\xc3\x97\xd6\x82\xb0,o\x02n]\x1df\t')])), ('sigkey', b'/\x08\x01\xa0\x06\x16\xf8\xdd\xac.\xc0\t\xf8\xdb\x87q\xa4\x87`2\xe7\x95v \xa2p\r_\x9b\xbbx\xff')])
+
+
+ >>> Decoded bytes Dict: OrderedDict([('lsig', OrderedDict([('l', 'BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV-bu3j_EhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='), ('sig', 'xudInzayLTxKTKXsdVK_WJPPkaUXrlip9XDB0vEWuFIKxJ5Uh_GlPt4HzTjMvJxbQsQ9w5fWgrAsbwJuXR1mCQ==')])), ('sigkey', 'LwgBoAYW-N2sLsAJ-NuHcaSHYDLnlXYgonANX5u7eP8=')])
+
+
+ >>>> DictStr: {"lsig": {"l": "BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV-bu3j_EhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "xudInzayLTxKTKXsdVK_WJPPkaUXrlip9XDB0vEWuFIKxJ5Uh_GlPt4HzTjMvJxbQsQ9w5fWgrAsbwJuXR1mCQ=="}, "sigkey": "LwgBoAYW-N2sLsAJ-NuHcaSHYDLnlXYgonANX5u7eP8="}
+
+
+ >>>> DictBytes: b'{"lsig": {"l": "BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV-bu3j_EhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "xudInzayLTxKTKXsdVK_WJPPkaUXrlip9XDB0vEWuFIKxJ5Uh_GlPt4HzTjMvJxbQsQ9w5fWgrAsbwJuXR1mCQ=="}, "sigkey": "LwgBoAYW-N2sLsAJ-NuHcaSHYDLnlXYgonANX5u7eP8="}'
+
+
+ >>>> B64 Encoded DictStr: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlDOElBYUFHRnZqZHJDN0FDZmpiaDNHa2gyQXk1NVYySUtKd0RWLWJ1M2pfRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ4dWRJbnpheUxUeEtUS1hzZFZLX1dKUFBrYVVYcmxpcDlYREIwdkVXdUZJS3hKNVVoX0dsUHQ0SHpUak12SnhiUXNROXc1ZldnckFzYndKdVhSMW1DUT09In0sICJzaWdrZXkiOiAiTHdnQm9BWVctTjJzTHNBSi1OdUhjYVNIWURMbmxYWWdvbkFOWDV1N2VQOD0ifQ=='
+
+
+ >>>> Final DATA: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlDOElBYUFHRnZqZHJDN0FDZmpiaDNHa2gyQXk1NVYySUtKd0RWLWJ1M2pfRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ4dWRJbnpheUxUeEtUS1hzZFZLX1dKUFBrYVVYcmxpcDlYREIwdkVXdUZJS3hKNVVoX0dsUHQ0SHpUak12SnhiUXNROXc1ZldnckFzYndKdVhSMW1DUT09In0sICJzaWdrZXkiOiAiTHdnQm9BWVctTjJzTHNBSi1OdUhjYVNIWURMbmxYWWdvbkFOWDV1N2VQOD0ifQ==
+
+
+ >>> Data encoded into QR: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlDOElBYUFHRnZqZHJDN0FDZmpiaDNHa2gyQXk1NVYySUtKd0RWLWJ1M2pfRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ4dWRJbnpheUxUeEtUS1hzZFZLX1dKUFBrYVVYcmxpcDlYREIwdkVXdUZJS3hKNVVoX0dsUHQ0SHpUak12SnhiUXNROXc1ZldnckFzYndKdVhSMW1DUT09In0sICJzaWdrZXkiOiAiTHdnQm9BWVctTjJzTHNBSi1OdUhjYVNIWURMbmxYWWdvbkFOWDV1N2VQOD0ifQ==,F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A,1000000,1000
+<class 'qrcode.image.pil.PilImage'>
+Compiled result =  BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Compiled hash =  GFO2QOW3SACZTLMR4SS5H7GDOPEV4XTEXO3JYNAXI4EANVXB4KMIASYBCU
+Complied program string : BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Encoded complied program string in bytes :
+b'BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='
+Decoded in base64 encoded compiled program string :
+b'\x051\x10\x81\x01\x121\x00\x80 \x88\xec\xcc8\xe9\x19x(s8\xe2\x8e\xe5\x1eQsGX\x86n u\x0e\xdf{\xd6\x01\xe6\xd9\xaeU\x91\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'
+Generated lsig by the LogicSic(decoded program) :
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA0B0>
+Creating QR for student RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4 ...
+
+
+  >> Dictified Lsig
+OrderedDict([('lsig', OrderedDict([('l', b'\x051\x10\x81\x01\x121\x00\x80 \x88\xec\xcc8\xe9\x19x(s8\xe2\x8e\xe5\x1eQsGX\x86n u\x0e\xdf{\xd6\x01\xe6\xd9\xaeU\x91\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10'), ('sig', b'Z\x1a\xee\x91\x1b?\xd6\xab\xdb!\xf3\xe7m\xd9\xfc\xcd(\xac9\x03\x83J\xd4nrB\x83\xd7"\r\xa4\xf4\x93_\xa2\x92U\x86\xc1sJ\xbf\xc8$O}\x94\x853\xea)\x8e\xb3\xff\xa2\xc5\xbf\xd9G\xb3\xc6\x96\x81\x06')])), ('sigkey', b'\x88\xec\xcc8\xe9\x19x(s8\xe2\x8e\xe5\x1eQsGX\x86n u\x0e\xdf{\xd6\x01\xe6\xd9\xaeU\x91')])
+
+
+ >>> Decoded bytes Dict: OrderedDict([('lsig', OrderedDict([('l', 'BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='), ('sig', 'WhrukRs_1qvbIfPnbdn8zSisOQODStRuckKD1yINpPSTX6KSVYbBc0q_yCRPfZSFM-opjrP_osW_2UezxpaBBg==')])), ('sigkey', 'iOzMOOkZeChzOOKO5R5Rc0dYhm4gdQ7fe9YB5tmuVZE=')])
+
+
+ >>>> DictStr: {"lsig": {"l": "BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "WhrukRs_1qvbIfPnbdn8zSisOQODStRuckKD1yINpPSTX6KSVYbBc0q_yCRPfZSFM-opjrP_osW_2UezxpaBBg=="}, "sigkey": "iOzMOOkZeChzOOKO5R5Rc0dYhm4gdQ7fe9YB5tmuVZE="}
+
+
+ >>>> DictBytes: b'{"lsig": {"l": "BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "WhrukRs_1qvbIfPnbdn8zSisOQODStRuckKD1yINpPSTX6KSVYbBc0q_yCRPfZSFM-opjrP_osW_2UezxpaBBg=="}, "sigkey": "iOzMOOkZeChzOOKO5R5Rc0dYhm4gdQ7fe9YB5tmuVZE="}'
+
+
+ >>>> B64 Encoded DictStr: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlJanN6RGpwR1hnb2N6amlqdVVlVVhOSFdJWnVJSFVPMzN2V0FlYlpybFdSRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJXaHJ1a1JzXzFxdmJJZlBuYmRuOHpTaXNPUU9EU3RSdWNrS0QxeUlOcFBTVFg2S1NWWWJCYzBxX3lDUlBmWlNGTS1vcGpyUF9vc1dfMlVlenhwYUJCZz09In0sICJzaWdrZXkiOiAiaU96TU9Pa1plQ2h6T09LTzVSNVJjMGRZaG00Z2RRN2ZlOVlCNXRtdVZaRT0ifQ=='
+
+
+ >>>> Final DATA: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlJanN6RGpwR1hnb2N6amlqdVVlVVhOSFdJWnVJSFVPMzN2V0FlYlpybFdSRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJXaHJ1a1JzXzFxdmJJZlBuYmRuOHpTaXNPUU9EU3RSdWNrS0QxeUlOcFBTVFg2S1NWWWJCYzBxX3lDUlBmWlNGTS1vcGpyUF9vc1dfMlVlenhwYUJCZz09In0sICJzaWdrZXkiOiAiaU96TU9Pa1plQ2h6T09LTzVSNVJjMGRZaG00Z2RRN2ZlOVlCNXRtdVZaRT0ifQ==
+
+
+ >>> Data encoded into QR: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlJanN6RGpwR1hnb2N6amlqdVVlVVhOSFdJWnVJSFVPMzN2V0FlYlpybFdSRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJXaHJ1a1JzXzFxdmJJZlBuYmRuOHpTaXNPUU9EU3RSdWNrS0QxeUlOcFBTVFg2S1NWWWJCYzBxX3lDUlBmWlNGTS1vcGpyUF9vc1dfMlVlenhwYUJCZz09In0sICJzaWdrZXkiOiAiaU96TU9Pa1plQ2h6T09LTzVSNVJjMGRZaG00Z2RRN2ZlOVlCNXRtdVZaRT0ifQ==,RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4,1000000,1000
+<class 'qrcode.image.pil.PilImage'>
+Compiled result =  BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Compiled hash =  EQ4R5KRIX64IJ6ZIU2JF6CP2SDRHJIVMYFDTOCLM5MUH7ZJRLENWDFN67A
+Complied program string : BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==
+Encoded complied program string in bytes :
+b'BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3+Cttsir/rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8/4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='
+Decoded in base64 encoded compiled program string :
+b"\x051\x10\x81\x01\x121\x00\x80 \\]\xccx'\xf4V.\x87\xa0U\xb3\x07:\xea\x1ej\xecd\x16\xd2\x89p<\xd9\xae>\x8a\xa6\xd6I,\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10"
+Generated lsig by the LogicSic(decoded program) :
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA320>
+Creating QR for student LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA ...
+
+
+  >> Dictified Lsig
+OrderedDict([('lsig', OrderedDict([('l', b"\x051\x10\x81\x01\x121\x00\x80 \\]\xccx'\xf4V.\x87\xa0U\xb3\x07:\xea\x1ej\xecd\x16\xd2\x89p<\xd9\xae>\x8a\xa6\xd6I,\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10"), ('sig', b"2\x94\xdc\x84e\x80\xd8\x05\x80\xe4\xbfz\x99\xf0\x88\xf5\x93\x8c\xd2\xec\xfc\xa3\x94\x1e\x94\x04(4\xe5i9\x1bf\x17\xfe\x85vj\xe7UW\xcd\x8e'\x16\xd3\x85\xe8\x14\x83\xfbr\xfc~\x928\x13\xd3\x8dx\xdb\xb5\x80\x0f")])), ('sigkey', b"\\]\xccx'\xf4V.\x87\xa0U\xb3\x07:\xea\x1ej\xecd\x16\xd2\x89p<\xd9\xae>\x8a\xa6\xd6I,")])
+
+
+ >>> Decoded bytes Dict: OrderedDict([('lsig', OrderedDict([('l', 'BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA=='), ('sig', 'MpTchGWA2AWA5L96mfCI9ZOM0uz8o5QelAQoNOVpORtmF_6FdmrnVVfNjicW04XoFIP7cvx-kjgT041427WADw==')])), ('sigkey', 'XF3MeCf0Vi6HoFWzBzrqHmrsZBbSiXA82a4-iqbWSSw=')])
+
+
+ >>>> DictStr: {"lsig": {"l": "BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "MpTchGWA2AWA5L96mfCI9ZOM0uz8o5QelAQoNOVpORtmF_6FdmrnVVfNjicW04XoFIP7cvx-kjgT041427WADw=="}, "sigkey": "XF3MeCf0Vi6HoFWzBzrqHmrsZBbSiXA82a4-iqbWSSw="}
+
+
+ >>>> DictBytes: b'{"lsig": {"l": "BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "MpTchGWA2AWA5L96mfCI9ZOM0uz8o5QelAQoNOVpORtmF_6FdmrnVVfNjicW04XoFIP7cvx-kjgT041427WADw=="}, "sigkey": "XF3MeCf0Vi6HoFWzBzrqHmrsZBbSiXA82a4-iqbWSSw="}'
+
+
+ >>>> B64 Encoded DictStr: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlGeGR6SGduOUZZdWg2QlZzd2M2Nmg1cTdHUVcwb2x3UE5tdVBvcW0xa2tzRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJNcFRjaEdXQTJBV0E1TDk2bWZDSTlaT00wdXo4bzVRZWxBUW9OT1ZwT1J0bUZfNkZkbXJuVlZmTmppY1cwNFhvRklQN2N2eC1ramdUMDQxNDI3V0FEdz09In0sICJzaWdrZXkiOiAiWEYzTWVDZjBWaTZIb0ZXekJ6cnFIbXJzWkJiU2lYQTgyYTQtaXFiV1NTdz0ifQ=='
+
+
+ >>>> Final DATA: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlGeGR6SGduOUZZdWg2QlZzd2M2Nmg1cTdHUVcwb2x3UE5tdVBvcW0xa2tzRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJNcFRjaEdXQTJBV0E1TDk2bWZDSTlaT00wdXo4bzVRZWxBUW9OT1ZwT1J0bUZfNkZkbXJuVlZmTmppY1cwNFhvRklQN2N2eC1ramdUMDQxNDI3V0FEdz09In0sICJzaWdrZXkiOiAiWEYzTWVDZjBWaTZIb0ZXekJ6cnFIbXJzWkJiU2lYQTgyYTQtaXFiV1NTdz0ifQ==
+
+
+ >>> Data encoded into QR: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlGeGR6SGduOUZZdWg2QlZzd2M2Nmg1cTdHUVcwb2x3UE5tdVBvcW0xa2tzRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJNcFRjaEdXQTJBV0E1TDk2bWZDSTlaT00wdXo4bzVRZWxBUW9OT1ZwT1J0bUZfNkZkbXJuVlZmTmppY1cwNFhvRklQN2N2eC1ramdUMDQxNDI3V0FEdz09In0sICJzaWdrZXkiOiAiWEYzTWVDZjBWaTZIb0ZXekJ6cnFIbXJzWkJiU2lYQTgyYTQtaXFiV1NTdz0ifQ==,LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA,1000000,1000
+<class 'qrcode.image.pil.PilImage'>
+
+
+ Lsigs and QRs successfully generated
+
+
+ Beginning Testing.............
+
+
+ Lsig for student P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A after reading from file: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlIOGpUa213ajloUkltRTFXdlBDQkY0ekRXb3JJVTZqTVRINDhDeU11bE15RWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ5b0xWUzNHdk91eGItNjBqTF8xTlJXTkh2dGdXMUttdk1EMjJ6T1JXVHNBVjhBZGZKbTJSNkVjanRpRjFQMDFNR1J0TWljMjY2WmVwOUlURWc0WUpEZz09In0sICJzaWdrZXkiOiAiZnlOT1NiQ1AyRkVpWVRWYTg4SUVYak1OYWlzaFRxTXhNZmp3TEl5NlV6ST0ifQ==,P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A,1000000,1000
+
+
+ Data List: ['eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlIOGpUa213ajloUkltRTFXdlBDQkY0ekRXb3JJVTZqTVRINDhDeU11bE15RWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ5b0xWUzNHdk91eGItNjBqTF8xTlJXTkh2dGdXMUttdk1EMjJ6T1JXVHNBVjhBZGZKbTJSNkVjanRpRjFQMDFNR1J0TWljMjY2WmVwOUlURWc0WUpEZz09In0sICJzaWdrZXkiOiAiZnlOT1NiQ1AyRkVpWVRWYTg4SUVYak1OYWlzaFRxTXhNZmp3TEl5NlV6ST0ifQ==', 'P4RU4SNQR7MFCITBGVNPHQQELYZQ22RLEFHKGMJR7DYCZDF2KMZA34ZX7A', '1000000', '1000']
+
+
+ encoded: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlIOGpUa213ajloUkltRTFXdlBDQkY0ekRXb3JJVTZqTVRINDhDeU11bE15RWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ5b0xWUzNHdk91eGItNjBqTF8xTlJXTkh2dGdXMUttdk1EMjJ6T1JXVHNBVjhBZGZKbTJSNkVjanRpRjFQMDFNR1J0TWljMjY2WmVwOUlURWc0WUpEZz09In0sICJzaWdrZXkiOiAiZnlOT1NiQ1AyRkVpWVRWYTg4SUVYak1OYWlzaFRxTXhNZmp3TEl5NlV6ST0ifQ=='
+
+
+ Decoded Lsig: {"lsig": {"l": "BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "yoLVS3GvOuxb-60jL_1NRWNHvtgW1KmvMD22zORWTsAV8AdfJm2R6EcjtiF1P01MGRtMic266Zep9ITEg4YJDg=="}, "sigkey": "fyNOSbCP2FEiYTVa88IEXjMNaishTqMxMfjwLIy6UzI="}
+
+
+ To Dictionary: {'lsig': {'l': 'BTEQgQESMQCAIH8jTkmwj9hRImE1WvPCBF4zDWorIU6jMTH48CyMulMyEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==', 'sig': 'yoLVS3GvOuxb-60jL_1NRWNHvtgW1KmvMD22zORWTsAV8AdfJm2R6EcjtiF1P01MGRtMic266Zep9ITEg4YJDg=='}, 'sigkey': 'fyNOSbCP2FEiYTVa88IEXjMNaishTqMxMfjwLIy6UzI='}
+
+
+ after decoding: {'lsig': {'l': b'\x051\x10\x81\x01\x121\x00\x80 \x7f#NI\xb0\x8f\xd8Q"a5Z\xf3\xc2\x04^3\rj+!N\xa311\xf8\xf0,\x8c\xbaS2\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10', 'sig': b'\xca\x82\xd5Kq\xaf:\xec[\xfb\xad#/\xfdMEcG\xbe\xd8\x16\xd4\xa9\xaf0=\xb6\xcc\xe4VN\xc0\x15\xf0\x07_&m\x91\xe8G#\xb6!u?ML\x19\x1bL\x89\xcd\xba\xe9\x97\xa9\xf4\x84\xc4\x83\x86\t\x0e'}, 'sigkey': b'\x7f#NI\xb0\x8f\xd8Q"a5Z\xf3\xc2\x04^3\rj+!N\xa311\xf8\xf0,\x8c\xbaS2'}
+
+
+ Flsig OBJECT after decoding: <algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CB700>
+>>>> Final LSIG >>>
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CB700>
+
+
+CHECKS on the loaded object: ... is it __eq__ to the original lsig object?
+True
+
+
+
+
+
+
+ Lsig for student BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU after reading from file: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlBbVVHUTFkdHJ1eDhxNkJydEFpYUdUUlVHcEh4T2NjNGVGR01rS1ZUbm1mRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJLVVozcHlCTEROaWRXSjA3b2RxNXprX05BSllhcWRZbjZ3dVdhcURhTl9xSm50MC01aWd4Zy1iWmx0dE5TNzVJX1pNUFF3aGJTQzZwN3hKRm9WOWlDZz09In0sICJzaWdrZXkiOiAiQ1pRWkRWMjJ1N0h5cm9HdTBDSm9aTkZRYWtmRTV4emg0VVl5UXBWT2VaOD0ifQ==,BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU,1000000,1000
+
+
+ Data List: ['eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlBbVVHUTFkdHJ1eDhxNkJydEFpYUdUUlVHcEh4T2NjNGVGR01rS1ZUbm1mRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJLVVozcHlCTEROaWRXSjA3b2RxNXprX05BSllhcWRZbjZ3dVdhcURhTl9xSm50MC01aWd4Zy1iWmx0dE5TNzVJX1pNUFF3aGJTQzZwN3hKRm9WOWlDZz09In0sICJzaWdrZXkiOiAiQ1pRWkRWMjJ1N0h5cm9HdTBDSm9aTkZRYWtmRTV4emg0VVl5UXBWT2VaOD0ifQ==', 'BGKBSDK5W253D4VOQGXNAITIMTIVA2SHYTTRZYPBIYZEFFKOPGP373Y7AU', '1000000', '1000']
+
+
+ encoded: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlBbVVHUTFkdHJ1eDhxNkJydEFpYUdUUlVHcEh4T2NjNGVGR01rS1ZUbm1mRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJLVVozcHlCTEROaWRXSjA3b2RxNXprX05BSllhcWRZbjZ3dVdhcURhTl9xSm50MC01aWd4Zy1iWmx0dE5TNzVJX1pNUFF3aGJTQzZwN3hKRm9WOWlDZz09In0sICJzaWdrZXkiOiAiQ1pRWkRWMjJ1N0h5cm9HdTBDSm9aTkZRYWtmRTV4emg0VVl5UXBWT2VaOD0ifQ=='
+
+
+ Decoded Lsig: {"lsig": {"l": "BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "KUZ3pyBLDNidWJ07odq5zk_NAJYaqdYn6wuWaqDaN_qJnt0-5igxg-bZlttNS75I_ZMPQwhbSC6p7xJFoV9iCg=="}, "sigkey": "CZQZDV22u7HyroGu0CJoZNFQakfE5xzh4UYyQpVOeZ8="}
+
+
+ To Dictionary: {'lsig': {'l': 'BTEQgQESMQCAIAmUGQ1dtrux8q6BrtAiaGTRUGpHxOcc4eFGMkKVTnmfEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==', 'sig': 'KUZ3pyBLDNidWJ07odq5zk_NAJYaqdYn6wuWaqDaN_qJnt0-5igxg-bZlttNS75I_ZMPQwhbSC6p7xJFoV9iCg=='}, 'sigkey': 'CZQZDV22u7HyroGu0CJoZNFQakfE5xzh4UYyQpVOeZ8='}
+
+
+ after decoding: {'lsig': {'l': b'\x051\x10\x81\x01\x121\x00\x80 \t\x94\x19\r]\xb6\xbb\xb1\xf2\xae\x81\xae\xd0"hd\xd1PjG\xc4\xe7\x1c\xe1\xe1F2B\x95Ny\x9f\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10', 'sig': b")Fw\xa7 K\x0c\xd8\x9dX\x9d;\xa1\xda\xb9\xceO\xcd\x00\x96\x1a\xa9\xd6'\xeb\x0b\x96j\xa0\xda7\xfa\x89\x9e\xdd>\xe6(1\x83\xe6\xd9\x96\xdbMK\xbeH\xfd\x93\x0fC\x08[H.\xa9\xef\x12E\xa1_b\n"}, 'sigkey': b'\t\x94\x19\r]\xb6\xbb\xb1\xf2\xae\x81\xae\xd0"hd\xd1PjG\xc4\xe7\x1c\xe1\xe1F2B\x95Ny\x9f'}
+
+
+ Flsig OBJECT after decoding: <algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA3E0>
+>>>> Final LSIG >>>
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA3E0>
+
+
+CHECKS on the loaded object: ... is it __eq__ to the original lsig object?
+True
+
+
+
+
+
+
+ Lsig for student 2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ after reading from file: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlOQTFmcUY4SXBVNy14QzJNUUh2eW94VGc4aVg5OXRXTEVETjNaUloxVmFPRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJjejlXS211cUQ2MzZ4MzBMQ3JHZVZaRUd2MmRoaEFUbm14eXQzdkU3NHdzYmNCR01nV0VYYmZoSEZJNlBFalFiRWZ6VzM4bVJjT3o4QXZwVnUwZGdCZz09In0sICJzaWdrZXkiOiAiMERWLW9Yd2lsVHY3RUxZeEFlX0tqRk9EeUpmMzIxWXNRTTNkbEZuVlZvND0ifQ==,2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ,1000000,1000
+
+
+ Data List: ['eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlOQTFmcUY4SXBVNy14QzJNUUh2eW94VGc4aVg5OXRXTEVETjNaUloxVmFPRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJjejlXS211cUQ2MzZ4MzBMQ3JHZVZaRUd2MmRoaEFUbm14eXQzdkU3NHdzYmNCR01nV0VYYmZoSEZJNlBFalFiRWZ6VzM4bVJjT3o4QXZwVnUwZGdCZz09In0sICJzaWdrZXkiOiAiMERWLW9Yd2lsVHY3RUxZeEFlX0tqRk9EeUpmMzIxWXNRTTNkbEZuVlZvND0ifQ==', '2A2X5IL4EKKTX6YQWYYQD36KRRJYHSEX67NVMLCAZXOZIWOVK2HKT6CEUQ', '1000000', '1000']
+
+
+ encoded: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlOQTFmcUY4SXBVNy14QzJNUUh2eW94VGc4aVg5OXRXTEVETjNaUloxVmFPRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJjejlXS211cUQ2MzZ4MzBMQ3JHZVZaRUd2MmRoaEFUbm14eXQzdkU3NHdzYmNCR01nV0VYYmZoSEZJNlBFalFiRWZ6VzM4bVJjT3o4QXZwVnUwZGdCZz09In0sICJzaWdrZXkiOiAiMERWLW9Yd2lsVHY3RUxZeEFlX0tqRk9EeUpmMzIxWXNRTTNkbEZuVlZvND0ifQ=='
+
+
+ Decoded Lsig: {"lsig": {"l": "BTEQgQESMQCAINA1fqF8IpU7-xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "cz9WKmuqD636x30LCrGeVZEGv2dhhATnmxyt3vE74wsbcBGMgWEXbfhHFI6PEjQbEfzW38mRcOz8AvpVu0dgBg=="}, "sigkey": "0DV-oXwilTv7ELYxAe_KjFODyJf321YsQM3dlFnVVo4="}
+
+
+ To Dictionary: {'lsig': {'l': 'BTEQgQESMQCAINA1fqF8IpU7-xC2MQHvyoxTg8iX99tWLEDN3ZRZ1VaOEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==', 'sig': 'cz9WKmuqD636x30LCrGeVZEGv2dhhATnmxyt3vE74wsbcBGMgWEXbfhHFI6PEjQbEfzW38mRcOz8AvpVu0dgBg=='}, 'sigkey': '0DV-oXwilTv7ELYxAe_KjFODyJf321YsQM3dlFnVVo4='}
+
+
+ after decoding: {'lsig': {'l': b'\x051\x10\x81\x01\x121\x00\x80 \xd05~\xa1|"\x95;\xfb\x10\xb61\x01\xef\xca\x8cS\x83\xc8\x97\xf7\xdbV,@\xcd\xdd\x94Y\xd5V\x8e\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10', 'sig': b's?V*k\xaa\x0f\xad\xfa\xc7}\x0b\n\xb1\x9eU\x91\x06\xbfga\x84\x04\xe7\x9b\x1c\xad\xde\xf1;\xe3\x0b\x1bp\x11\x8c\x81a\x17m\xf8G\x14\x8e\x8f\x124\x1b\x11\xfc\xd6\xdf\xc9\x91p\xec\xfc\x02\xfaU\xbbG`\x06'}, 'sigkey': b'\xd05~\xa1|"\x95;\xfb\x10\xb61\x01\xef\xca\x8cS\x83\xc8\x97\xf7\xdbV,@\xcd\xdd\x94Y\xd5V\x8e'}
+
+
+ Flsig OBJECT after decoding: <algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA620>
+>>>> Final LSIG >>>
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA620>
+
+
+CHECKS on the loaded object: ... is it __eq__ to the original lsig object?
+True
+
+
+
+
+
+
+ Lsig for student F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A after reading from file: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlDOElBYUFHRnZqZHJDN0FDZmpiaDNHa2gyQXk1NVYySUtKd0RWLWJ1M2pfRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ4dWRJbnpheUxUeEtUS1hzZFZLX1dKUFBrYVVYcmxpcDlYREIwdkVXdUZJS3hKNVVoX0dsUHQ0SHpUak12SnhiUXNROXc1ZldnckFzYndKdVhSMW1DUT09In0sICJzaWdrZXkiOiAiTHdnQm9BWVctTjJzTHNBSi1OdUhjYVNIWURMbmxYWWdvbkFOWDV1N2VQOD0ifQ==,F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A,1000000,1000
+
+
+ Data List: ['eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlDOElBYUFHRnZqZHJDN0FDZmpiaDNHa2gyQXk1NVYySUtKd0RWLWJ1M2pfRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ4dWRJbnpheUxUeEtUS1hzZFZLX1dKUFBrYVVYcmxpcDlYREIwdkVXdUZJS3hKNVVoX0dsUHQ0SHpUak12SnhiUXNROXc1ZldnckFzYndKdVhSMW1DUT09In0sICJzaWdrZXkiOiAiTHdnQm9BWVctTjJzTHNBSi1OdUhjYVNIWURMbmxYWWdvbkFOWDV1N2VQOD0ifQ==', 'F4EADIAGC34N3LBOYAE7RW4HOGSIOYBS46KXMIFCOAGV7G53PD7SANHV5A', '1000000', '1000']
+
+
+ encoded: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlDOElBYUFHRnZqZHJDN0FDZmpiaDNHa2gyQXk1NVYySUtKd0RWLWJ1M2pfRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJ4dWRJbnpheUxUeEtUS1hzZFZLX1dKUFBrYVVYcmxpcDlYREIwdkVXdUZJS3hKNVVoX0dsUHQ0SHpUak12SnhiUXNROXc1ZldnckFzYndKdVhSMW1DUT09In0sICJzaWdrZXkiOiAiTHdnQm9BWVctTjJzTHNBSi1OdUhjYVNIWURMbmxYWWdvbkFOWDV1N2VQOD0ifQ=='
+
+
+ Decoded Lsig: {"lsig": {"l": "BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV-bu3j_EhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "xudInzayLTxKTKXsdVK_WJPPkaUXrlip9XDB0vEWuFIKxJ5Uh_GlPt4HzTjMvJxbQsQ9w5fWgrAsbwJuXR1mCQ=="}, "sigkey": "LwgBoAYW-N2sLsAJ-NuHcaSHYDLnlXYgonANX5u7eP8="}
+
+
+ To Dictionary: {'lsig': {'l': 'BTEQgQESMQCAIC8IAaAGFvjdrC7ACfjbh3Gkh2Ay55V2IKJwDV-bu3j_EhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==', 'sig': 'xudInzayLTxKTKXsdVK_WJPPkaUXrlip9XDB0vEWuFIKxJ5Uh_GlPt4HzTjMvJxbQsQ9w5fWgrAsbwJuXR1mCQ=='}, 'sigkey': 'LwgBoAYW-N2sLsAJ-NuHcaSHYDLnlXYgonANX5u7eP8='}
+
+
+ after decoding: {'lsig': {'l': b'\x051\x10\x81\x01\x121\x00\x80 /\x08\x01\xa0\x06\x16\xf8\xdd\xac.\xc0\t\xf8\xdb\x87q\xa4\x87`2\xe7\x95v \xa2p\r_\x9b\xbbx\xff\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10', 'sig': b'\xc6\xe7H\x9f6\xb2-<JL\xa5\xecuR\xbfX\x93\xcf\x91\xa5\x17\xaeX\xa9\xf5p\xc1\xd2\xf1\x16\xb8R\n\xc4\x9eT\x87\xf1\xa5>\xde\x07\xcd8\xcc\xbc\x9c[B\xc4=\xc3\x97\xd6\x82\xb0,o\x02n]\x1df\t'}, 'sigkey': b'/\x08\x01\xa0\x06\x16\xf8\xdd\xac.\xc0\t\xf8\xdb\x87q\xa4\x87`2\xe7\x95v \xa2p\r_\x9b\xbbx\xff'}
+
+
+ Flsig OBJECT after decoding: <algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA800>
+>>>> Final LSIG >>>
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA800>
+
+
+CHECKS on the loaded object: ... is it __eq__ to the original lsig object?
+True
+
+
+
+
+
+
+ Lsig for student RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4 after reading from file: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlJanN6RGpwR1hnb2N6amlqdVVlVVhOSFdJWnVJSFVPMzN2V0FlYlpybFdSRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJXaHJ1a1JzXzFxdmJJZlBuYmRuOHpTaXNPUU9EU3RSdWNrS0QxeUlOcFBTVFg2S1NWWWJCYzBxX3lDUlBmWlNGTS1vcGpyUF9vc1dfMlVlenhwYUJCZz09In0sICJzaWdrZXkiOiAiaU96TU9Pa1plQ2h6T09LTzVSNVJjMGRZaG00Z2RRN2ZlOVlCNXRtdVZaRT0ifQ==,RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4,1000000,1000
+
+
+ Data List: ['eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlJanN6RGpwR1hnb2N6amlqdVVlVVhOSFdJWnVJSFVPMzN2V0FlYlpybFdSRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJXaHJ1a1JzXzFxdmJJZlBuYmRuOHpTaXNPUU9EU3RSdWNrS0QxeUlOcFBTVFg2S1NWWWJCYzBxX3lDUlBmWlNGTS1vcGpyUF9vc1dfMlVlenhwYUJCZz09In0sICJzaWdrZXkiOiAiaU96TU9Pa1plQ2h6T09LTzVSNVJjMGRZaG00Z2RRN2ZlOVlCNXRtdVZaRT0ifQ==', 'RDWMYOHJDF4CQ4ZY4KHOKHSRONDVRBTOEB2Q5X332YA6NWNOKWIXZPTSD4', '1000000', '1000']
+
+
+ encoded: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlJanN6RGpwR1hnb2N6amlqdVVlVVhOSFdJWnVJSFVPMzN2V0FlYlpybFdSRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJXaHJ1a1JzXzFxdmJJZlBuYmRuOHpTaXNPUU9EU3RSdWNrS0QxeUlOcFBTVFg2S1NWWWJCYzBxX3lDUlBmWlNGTS1vcGpyUF9vc1dfMlVlenhwYUJCZz09In0sICJzaWdrZXkiOiAiaU96TU9Pa1plQ2h6T09LTzVSNVJjMGRZaG00Z2RRN2ZlOVlCNXRtdVZaRT0ifQ=='
+
+
+ Decoded Lsig: {"lsig": {"l": "BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "WhrukRs_1qvbIfPnbdn8zSisOQODStRuckKD1yINpPSTX6KSVYbBc0q_yCRPfZSFM-opjrP_osW_2UezxpaBBg=="}, "sigkey": "iOzMOOkZeChzOOKO5R5Rc0dYhm4gdQ7fe9YB5tmuVZE="}
+
+
+ To Dictionary: {'lsig': {'l': 'BTEQgQESMQCAIIjszDjpGXgoczjijuUeUXNHWIZuIHUO33vWAebZrlWREhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==', 'sig': 'WhrukRs_1qvbIfPnbdn8zSisOQODStRuckKD1yINpPSTX6KSVYbBc0q_yCRPfZSFM-opjrP_osW_2UezxpaBBg=='}, 'sigkey': 'iOzMOOkZeChzOOKO5R5Rc0dYhm4gdQ7fe9YB5tmuVZE='}
+
+
+ after decoding: {'lsig': {'l': b'\x051\x10\x81\x01\x121\x00\x80 \x88\xec\xcc8\xe9\x19x(s8\xe2\x8e\xe5\x1eQsGX\x86n u\x0e\xdf{\xd6\x01\xe6\xd9\xaeU\x91\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10', 'sig': b'Z\x1a\xee\x91\x1b?\xd6\xab\xdb!\xf3\xe7m\xd9\xfc\xcd(\xac9\x03\x83J\xd4nrB\x83\xd7"\r\xa4\xf4\x93_\xa2\x92U\x86\xc1sJ\xbf\xc8$O}\x94\x853\xea)\x8e\xb3\xff\xa2\xc5\xbf\xd9G\xb3\xc6\x96\x81\x06'}, 'sigkey': b'\x88\xec\xcc8\xe9\x19x(s8\xe2\x8e\xe5\x1eQsGX\x86n u\x0e\xdf{\xd6\x01\xe6\xd9\xaeU\x91'}
+
+
+ Flsig OBJECT after decoding: <algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA9E0>
+>>>> Final LSIG >>>
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CA9E0>
+
+
+CHECKS on the loaded object: ... is it __eq__ to the original lsig object?
+True
+
+
+
+
+
+
+ Lsig for student LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA after reading from file: eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlGeGR6SGduOUZZdWg2QlZzd2M2Nmg1cTdHUVcwb2x3UE5tdVBvcW0xa2tzRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJNcFRjaEdXQTJBV0E1TDk2bWZDSTlaT00wdXo4bzVRZWxBUW9OT1ZwT1J0bUZfNkZkbXJuVlZmTmppY1cwNFhvRklQN2N2eC1ramdUMDQxNDI3V0FEdz09In0sICJzaWdrZXkiOiAiWEYzTWVDZjBWaTZIb0ZXekJ6cnFIbXJzWkJiU2lYQTgyYTQtaXFiV1NTdz0ifQ==,LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA,1000000,1000
+
+
+ Data List: ['eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlGeGR6SGduOUZZdWg2QlZzd2M2Nmg1cTdHUVcwb2x3UE5tdVBvcW0xa2tzRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJNcFRjaEdXQTJBV0E1TDk2bWZDSTlaT00wdXo4bzVRZWxBUW9OT1ZwT1J0bUZfNkZkbXJuVlZmTmppY1cwNFhvRklQN2N2eC1ramdUMDQxNDI3V0FEdz09In0sICJzaWdrZXkiOiAiWEYzTWVDZjBWaTZIb0ZXekJ6cnFIbXJzWkJiU2lYQTgyYTQtaXFiV1NTdz0ifQ==', 'LRO4Y6BH6RLC5B5AKWZQOOXKDZVOYZAW2KEXAPGZVY7IVJWWJEWJPJ4IMA', '1000000', '1000']
+
+
+ encoded: b'eyJsc2lnIjogeyJsIjogIkJURVFnUUVTTVFDQUlGeGR6SGduOUZZdWg2QlZzd2M2Nmg1cTdHUVcwb2x3UE5tdVBvcW0xa2tzRWhBeEI0QWdhWVFvTVozLUN0dHNpcl9yaGo0OTFmRGJadUVNdFlUR3Jqc2E3SjN3NzVZU01RZUFJQ2hGTDFTWTdMcTRFQnlMZGlZOUw4XzR6VnB2VUJqc1k4R3N4TzdiUmdkU0VoRVFNUWlCZ0liRkVnNFFNUWt5QXhJUU1TQXlBeElRTVFHQmtFNE9FQT09IiwgInNpZyI6ICJNcFRjaEdXQTJBV0E1TDk2bWZDSTlaT00wdXo4bzVRZWxBUW9OT1ZwT1J0bUZfNkZkbXJuVlZmTmppY1cwNFhvRklQN2N2eC1ramdUMDQxNDI3V0FEdz09In0sICJzaWdrZXkiOiAiWEYzTWVDZjBWaTZIb0ZXekJ6cnFIbXJzWkJiU2lYQTgyYTQtaXFiV1NTdz0ifQ=='
+
+
+ Decoded Lsig: {"lsig": {"l": "BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==", "sig": "MpTchGWA2AWA5L96mfCI9ZOM0uz8o5QelAQoNOVpORtmF_6FdmrnVVfNjicW04XoFIP7cvx-kjgT041427WADw=="}, "sigkey": "XF3MeCf0Vi6HoFWzBzrqHmrsZBbSiXA82a4-iqbWSSw="}
+
+
+ To Dictionary: {'lsig': {'l': 'BTEQgQESMQCAIFxdzHgn9FYuh6BVswc66h5q7GQW0olwPNmuPoqm1kksEhAxB4AgaYQoMZ3-Cttsir_rhj491fDbZuEMtYTGrjsa7J3w75YSMQeAIChFL1SY7Lq4EByLdiY9L8_4zVpvUBjsY8GsxO7bRgdSEhEQMQiBgIbFEg4QMQkyAxIQMSAyAxIQMQGBkE4OEA==', 'sig': 'MpTchGWA2AWA5L96mfCI9ZOM0uz8o5QelAQoNOVpORtmF_6FdmrnVVfNjicW04XoFIP7cvx-kjgT041427WADw=='}, 'sigkey': 'XF3MeCf0Vi6HoFWzBzrqHmrsZBbSiXA82a4-iqbWSSw='}
+
+
+ after decoding: {'lsig': {'l': b"\x051\x10\x81\x01\x121\x00\x80 \\]\xccx'\xf4V.\x87\xa0U\xb3\x07:\xea\x1ej\xecd\x16\xd2\x89p<\xd9\xae>\x8a\xa6\xd6I,\x12\x101\x07\x80 i\x84(1\x9d\xfe\n\xdbl\x8a\xbf\xeb\x86>=\xd5\xf0\xdbf\xe1\x0c\xb5\x84\xc6\xae;\x1a\xec\x9d\xf0\xef\x96\x121\x07\x80 (E/T\x98\xec\xba\xb8\x10\x1c\x8bv&=/\xcf\xf8\xcdZoP\x18\xecc\xc1\xac\xc4\xee\xdbF\x07R\x12\x11\x101\x08\x81\x80\x86\xc5\x12\x0e\x101\t2\x03\x12\x101 2\x03\x12\x101\x01\x81\x90N\x0e\x10", 'sig': b"2\x94\xdc\x84e\x80\xd8\x05\x80\xe4\xbfz\x99\xf0\x88\xf5\x93\x8c\xd2\xec\xfc\xa3\x94\x1e\x94\x04(4\xe5i9\x1bf\x17\xfe\x85vj\xe7UW\xcd\x8e'\x16\xd3\x85\xe8\x14\x83\xfbr\xfc~\x928\x13\xd3\x8dx\xdb\xb5\x80\x0f"}, 'sigkey': b"\\]\xccx'\xf4V.\x87\xa0U\xb3\x07:\xea\x1ej\xecd\x16\xd2\x89p<\xd9\xae>\x8a\xa6\xd6I,"}
+
+
+ Flsig OBJECT after decoding: <algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CABC0>
+>>>> Final LSIG >>>
+<algosdk.future.transaction.LogicSigAccount object at 0x00000250CE5CABC0>
+
+
+CHECKS on the loaded object: ... is it __eq__ to the original lsig object?
+True
+
+
+
+
+
+
+ >>>>>>> Testing of lsig rebuild complete
+
+
+ Begin test lsig transactions..........
+Successfully sent transaction with txID: Z3ZWRG4FFD75JMYQIN3UIOVTM6XEWN5YCEEFL4VCER5NWMR5DZIA
+Transaction successfully accepted
+Final STUDENT account balance: 38988000 microAlgos
+Final BOOKSHOP account balance: 111000 microAlgos
+Successfully sent transaction with txID: L63PWTZ2UAITE2ORJ76TKORTS62HIDDDVQ4NDY6GXW7QVHH3SI7Q
+Transaction successfully accepted
+Final STUDENT account balance: 38988000 microAlgos
+Final BOOKSHOP account balance: 112000 microAlgos
+Successfully sent transaction with txID: HLHBUNJXYCFRJJXE6Y5CKYM6KGHQSFOJEFJPMSQRS7OGTC4WE4QA
+Transaction successfully accepted
+Final STUDENT account balance: 38988000 microAlgos
+Final BOOKSHOP account balance: 113000 microAlgos
+Successfully sent transaction with txID: LQQ5QFGT3WQXDMXD72ATVUYKNB2PIPZQMFSJOIGZMIJDUKRFEH3A
+Transaction successfully accepted
+Final STUDENT account balance: 38988000 microAlgos
+Final BOOKSHOP account balance: 114000 microAlgos
+Successfully sent transaction with txID: JEXYMKNZB5UACB7LAJD27O3H2BF5INC7NZJQPTWJ35ROXHO2BE6A
+Transaction successfully accepted
+Final STUDENT account balance: 38988000 microAlgos
+Final BOOKSHOP account balance: 115000 microAlgos
+Successfully sent transaction with txID: KDMSNKQ2NX33KITXMM3JTJNR3CLZLILUBS4OPVMHZ3462IPUKNVA
+Transaction successfully accepted
+Final STUDENT account balance: 38988000 microAlgos
+Final BOOKSHOP account balance: 116000 microAlgos
+
+
+ Lsig transactions sent successfully with final (rebuilt) logic signatures
